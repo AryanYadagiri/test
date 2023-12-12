@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Travel Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img class="bg" src="bg.jpg" alt="Background image">
+    <div class="container">
+        <h1>Welcome to college trip form</h1>
+        <p>Enter your details to confirm your participation in trip.</p>
+
+        <form action="index.php" method="post" name="myForm">
+            <input type="text" name="name" id="name" required placeholder="Enter your name"><span
+                class="formerror"></span>
+            <input type="text" name="age" id="age" required placeholder="Enter your age"><span class="formerror"></span>
+            <input type="text" name="gender" id="gender" required placeholder="Enter your gender"><span
+                class="formerror"></span>
+            <input type="email" name="email" id="email" required placeholder="Enter your email"><span
+                class="formerror"></span>
+            <input type="phone" name="phone" id="phone" required placeholder="Enter your phone number"><span
+                class="formerror"></span>
+            <textarea name="other" id="other" cols="30" rows="10"
+                placeholder="Enter any other information here"></textarea>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
